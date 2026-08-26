@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratica</title>
+    <style>
+        #main{
+            background-image: url(quadrorama.png);
+            height: 700px;
+            background-color: rgb(235, 224, 211);
+        }
+        #comentario{
+            height: 70px;
+            width: 300px;
+        }
+        #fomulario{
+            
+            display: flex;
+            
+           
+            div{
+                font-family: Arial, Helvetica, sans-serif;
+                margin: 100px;
+                background-color: rgb(204, 204, 204);
+                width: 400px;
+                height: 500px;
+                text-align: left;
+                p, input, textarea{
+                   
+                    margin-left: 30px;
+                }
+                legend{
+                    margin-top: 40px;
+                    margin-left: 70px;
+                }
+                button{
+                   background-color: green;
+                   margin-left: 150px;
+                   width: 200px;
+                   height: 25px;
+
+                }
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div id="main">
+        <div id = "fomulario">
+            <div>
+                <legend style="text-align: center;"><h2>Seus Dados</h2></legend>
+                <p>Nome: <input type="text"></p>
+                <p>Email: <input type="email"></p>
+            </div>
+            <div style="width: 600px;">
+                <legend>Your Review: </legend>
+                <p style="gap: 30px;">How did you hear about us? <select name=""   id=""><option value="">Googleo</option></select></p>
+                <p>Would you visit again?</p>
+                <input type="radio" name="sim">Yes
+                <input type="radio" name="sim">Maybe
+                <input type="radio" name="sim">No
+                <p>Comentario</p>
+                <textarea name="" id="comentario"></textarea>
+                <p><input type="checkbox">me siga por email</p>
+                <button type="submit">Submeter</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="meuperfil">Meu Perfil</h1>
+    <p><a href="#sobreMim">Sobre Min</a></p>
+    <p><a href="../aula1.html">Aula1</a></p>
+    <p><a href="#habilidades">Minhas Habilidades</a></p>
+    <p><a href="../aula1.html#listas">Listas</a></p>
+
+    <h2 id="sobremim">Sobre mim</h2>
+    <p><b>Nome: </b>Herdilio Sebastiao Nguiliche</p>
+    <p><b>Nacionalida: </b>Mocambicano</p>
+    <p><b>Data de Nascimento: </b>05/03/2006</p>
+    <p><b>Curso: </b>Licenciatura em Informatica</p>
+    <p><b>Objectivo: </b>Tornar-me um desevolvidor e analista de Softwera</p>
+    <p><a href="#meuperfil">Menu Principal</a></p>
+    <img src="image.png" alt="">
+     <h2 id="habilidades">Habilidades</h2>
+    <hr>   <!--Uma barra  -->
+
+    <label for=""><h3>Minhas abilidades</h3></label>
+    
+
+    <!-- ul -> listas Nao ordenados
+         ol -> listas ordenados
+         li -> elemento de listas
+    -->
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>MySQL</li>
+        <li>Programacao
+            <ul>
+                <li>Web</li>
+                <li>Mobile</li>
+            </ul>
+        </li>
+
+        <li>Redes dos computadores</li>
+        <li>Base de dados</li>
+        <li>Linux</li>
+        <li>Ingles</li>
+    </ul>
+    <!-- <dl>
+        <dt>HTML</dt>
+        <dd>Liguagem de Marcaco Herpertexto</dd>
+        <dt>CSS</dt>
+        <dd>Liguage de estilo para definir o esspeto visual da pagina</dd>
+    </dl> -->
+
+    <h3>Tecnologia que quero aprender </h3>
+    <!-- Listas ordenados -->
+    <ol>
+        <li>Java</li>
+        <li>Python</li>
+        <li>Inteligencia Artificial</li>
+        <li>Aplicacao Mobile</li>
+    </ol>
+    <p><a href="#meuperfil">Menu Principal</a></p>
+    <h3>Estudos</h3>
+    <table>
+        <tr>
+            <td><th>Formacao Academica</th></td>
+        </tr>
+        <tr>
+            <td>Ano</td>
+            <td>Formacao</td>
+            <td>Instituicao</td>
+            <td>Estado</td>
+        </tr>
+        <tr>
+            <td>2012-2018</td>
+            <td>Ensino Primario</td>
+            <td>Escola Primaria de Malaia</td>
+            <td>Conclui</td>
+        </tr>
+        <tr>
+            <td>2019-2023</td>
+            <td>Ensino Sencundario</td>
+            <td>Escola Secundaria de Malaia</td>
+            <td>Conclui</td>
+        </tr>
+        <tr>
+            <td>2024</td>
+            <td>Electrecidade</td>
+            <td>Instituto Politecno Indico</td>
+            <td>Conclui</td>
+        </tr>
+    </table>
+    <fieldset>
+
+        <legend><h3>Contacto</h3></legend>
+        <form action="#">
+            <p>Nome Completo:</p>
+            <input type="text">
+            <p>Email:</p>
+            <input type="email">
+            <p>Telefone:</p>
+            <input type="tel">
+            <p>Data de Nascimento:</p>
+            <input type="date">
+            <p>Genero: </p>
+            <input type="radio" name="genero" value="masculino">masculino
+            <input type="radio" name="genero" value="Femenino">Femenino
+            <p>Areas de Interece:</p>
+            <select name="arasDeInterece">
+                <option value="DS" selected = "selected">Desevolvimento de Softwera</option>
+                <option value="SS" selected = "selected">Seguraca Sibernetica</option>
+                <option value="RC" selected = "selected">Redes dos Computadores</option>
+                <option value="ED" selected = "selected">Electronic Digital</option>
+                <option value="EA" selected = "selected">Electonica Analogica</option>
+            </select>
+            <p>Messagem: </p>
+            <textarea name="messagem" id=""></textarea>
+            <p>Areas Favoritas: </p>
+                <p><input type="checkbox" nome = "areasFavoritas">Rede dos computadors
+                <input type="checkbox" nome = "areasFavoritas">Aplicacao mobal
+                <input type="checkbox" nome = "areasFavoritas">Electronica digita
+                <input type="checkbox" nome = "areasFavoritas" >Mais Outras...
+            </p>
+            <p>Fonto tipo passe:</p>
+            <input type="">
+            <p>CV:</p>
+            <input type="file" nome = "cv" value="Uplond">
+            <p>Submeter</p>
+            <input type="submit">
+            <button >Enviar</button>
+        </form>
+    </fieldset>
+</body>
+</html>
